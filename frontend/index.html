@@ -7,12 +7,16 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
+    <div class="all">
     <div class="container">
         <h1 id="exercise-name">Exercise</h1>
         <video id="exercise-video" autoplay loop muted></video>
         <div id="timer">20</div>
-
+    </div>
         <div class="controls">
+            <input type="text" id="sec">
+            <input type="submit" id="btn">
+            
             <button id="prev-btn">Previous</button>
             <button id="pause-btn">Pause</button>
             <button id="next-btn">Next</button>
@@ -20,8 +24,8 @@
             <button id="reset-current-btn">Reset Current</button>
             <button id="reset-all-btn">Reset Workout</button>
         </div>
+   
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
